@@ -10,5 +10,6 @@ public class Programa3 {
         boolean res = (x1+x2)>=14.0; 
 
         System.out.println("pass: " + res + "!");
+        scanner.close();
     }
 }
