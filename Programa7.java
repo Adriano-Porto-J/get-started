@@ -9,11 +9,8 @@ public class Programa7 {
 
         String rInput = sc.nextLine();
 
-        while (rInput != "wally") {
+        while (!rInput.equals( "wally")) {
             String[] input = rInput.split(" ");
-            if(input[0] == "wally") {
-                System.exit(0);
-            }
             System.out.println(solve(input));
             rInput = sc.nextLine();
         }
